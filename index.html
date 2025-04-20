@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/calendar.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Event Planner</title>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Event Planner</h2>
+    <div class="form-group">
+        <input type="text" id="event-title" placeholder="Event Title" required>
+    </div>
+   
+    <div class="form-group">
+        <input type="date" id="event-date" required>
+    </div>
+
+    <div class="form-group">
+        <textarea id="event-description" rows="4" placeholder="Event Description" required></textarea>
+    </div>
+ 
+    <button id="add-event-btn">Add Event</button>
+    
+</div>
+
+<div class="event-list" id="event-list"></div>
+
+<!-- <div class="watermark"><strong>Created By: </strong>Earl Clarence P. Camero</div> -->
+
+<script src="script.js"></script>
+</body>
+</html>

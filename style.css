@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.event-list {
+    max-width: 500px;
+    margin: 30px auto 0 auto;
+}
+h2 {
+    text-align: center;
+    color: #28a745;
+    padding: 10px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+.event-list {
+    margin-top: 30px;
+}
+.event-item {
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    border-left: 5px solid #28a745;
+    padding: 15px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 10px;
+    word-break: break-word;
+}
+
+.event-item span {
+    overflow-wrap: break-word;
+  }
+  
+  .event-item button {
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+.event-text {
+    flex: 1 1 100%;
+    word-break: break-word;
+}
+
+.event-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.event-item h4 {
+    margin: 0;
+    font-size: 18px;
+}
+.event-item p {
+    margin: 5px 0;
+    color: #555;
+}
+#date{
+    text-decoration: none;
+    color: #186429;
+    background-color:#bee4c7;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    width: fit-content;
+    border-radius: 50px;  
+}
+.event-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.event-item .edit-btn{
+    margin-bottom: 10px;
+    background-color: #28a745;
+}
+.event-item .delete-btn{
+    background-color: #c82333;
+}
+.event-item .edit-btn:hover {
+    background-color: green;
+}
+.event-item .delete-btn:hover {
+    background-color: gray;
+}
+
+.watermark{
+    text-align: center;
+    font-size: 20px;
+    color: #186429;
+    margin-top: 100px;
+}
+
+
